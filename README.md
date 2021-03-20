@@ -21,6 +21,10 @@ be detected and even spatially-located via a supervised multi-class image classi
 
 
 <br />
+
+## Status: Done with the required changes**
+       1. Created a web app using Flask and Jinja2 Template Library. 
+       2. Referred to some of the related projects. 
 <br />
 <br />
 
