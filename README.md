@@ -14,6 +14,15 @@ imaging informatics (i.e., loosely labeled) can be used to facilitate the data-h
 we demonstrate that these commonly occurring thoracic diseases can
 be detected and even spatially-located via a supervised multi-class image classification. 
 
+## Changes Suggested By Judges 
+       1. Web-App or Mobile App Integration of working module. 
+       2. Refer other works done by the people and collect information accordingly and present them at Round 2 of Judging. 
+**Working on both suggestions.....🌟(09:00 PM)**
+
+
+<br />
+<br />
+<br />
 
 ## First Update: Added a simple Deep Convolutional Neural Network Model to predict Thorax Diseases
        1. Data Preprocessing (Data Augmentation, Image Conversion, Converting Images to Greyscale)
