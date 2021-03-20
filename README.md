@@ -14,12 +14,16 @@ imaging informatics (i.e., loosely labeled) can be used to facilitate the data-h
 we demonstrate that these commonly occurring thoracic diseases can
 be detected and even spatially-located via a supervised multi-class image classification. 
 
-## Changes Suggested By Judges 
+## Changes Suggested By Judges (For Round 2) 
        1. Web-App or Mobile App Integration of working module. 
        2. Refer other works done by the people and collect information accordingly and present them at Round 2 of Judging. 
-**Working on both suggestions.....🌟(09:00 PM)**
+**Working on both suggestions.....🌟(09:00 PM)** (Edit: completed with the work)
 
 
+## Changes Suggested By Judges (For Round 3)
+       1. Make necessary changes to achieve more accuracy and precision-recoil score and to get better results.  
+ **Working on suggestion.....🌟(01:40 AM)**
+    
 <br />
 
 ## Status: Done with the required changes**
