@@ -25,6 +25,8 @@ Multiclass classification of 14 different Thorax diseases as an aid for radiolog
 
 ## Second Update: Added a MobileNet Layer
 
+Changes in the accuracy and loss per Epoch after making adding a new model. 
+
 ## CNN Accuracy per approach
 ![Screenshot (509)](https://user-images.githubusercontent.com/63740798/111867602-29d9ae00-899b-11eb-88c5-82548d880735.png)
 
