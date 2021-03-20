@@ -1,6 +1,20 @@
 # HeAilth_NMIT-Hacks-2021
 Multiclass classification of 14 different Thorax diseases as an aid for radiologist’s diagnosis.
 
+# Problem Statement
+The chest X-ray is one of the most commonly accessible radiological examinations for screening and diagnosis
+of many lung diseases. A tremendous number of X-ray
+imaging studies accompanied by radiological reports are
+accumulated and stored in many modern hospitals’ Picture Archiving and Communication Systems (PACS). On
+the other side, it is still an open question how this type
+of hospital-size knowledge database containing invaluable
+imaging informatics (i.e., loosely labeled) can be used to facilitate the data-hungry deep learning paradigms in building truly large-scale high precision computer-aided diagnosis (CAD) systems. 
+
+# Solution (in-short)
+we demonstrate that these commonly occurring thoracic diseases can
+be detected and even spatially-located via a supervised multi-class image classification. 
+
+
 ## First Update: Added a simple Deep Convolutional Neural Network Model to predict Thorax Diseases
        1. Data Preprocessing (Data Augmentation, Image Conversion, Converting Images to Greyscale)
        2. Image inputs to CNN Model
