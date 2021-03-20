@@ -17,6 +17,10 @@ from flask import Flask
 from flask import request, redirect,render_template
 from werkzeug.utils import secure_filename
 import tempfile
+
+from keras.applications.imagenet_utils import preprocess_input, decode_predictions
+from keras.preprocessing import image
+
 tempdirectory = tempfile.gettempdir()
 
 def convert_img(image_path, target_size=(128,128)):
@@ -54,13 +58,35 @@ def index():
             Xtest = convert_img(image_path)
             image_result = reconstructed_model.predict(Xtest)
             if(image_result > 0.5):
-                results = "Your report says you have diagnosed with Malaria. Hey, No need to worry because, Malaria is a preventable and treatable disease. The primary objective of treatment is to ensure complete cure, that is the rapid and full elimination of the Plasmodium parasite from the patient’s blood, in order to prevent progression of uncomplicated malaria to severe disease or death, and to chronic infection that leads to malaria-related anaemia. From a public health perspective, treatment is meant to reduce transmission of the infection to others, by reducing the infectious reservoir and by preventing the emergence and spread of resistance to antimalarial medicines. Follow this Treatment table given in the link to get rid off malaria quickly.👨‍⚕️         https://www.cdc.gov/malaria/resources/pdf/Malaria_Treatment_Table.pdf "
+                results = 'Infected'
             else:
                 results = "Not infected"
                 
 
         if methodSelected == 'xray':
             print("Still under development")
+            #model = Sequential(weights= "cnn_xray.h5")
+            #model.load_weights("cnn_xray.h5")
+            new_model = tf.keras.models.load_model('../AI-diseases-prediction-master/pretrained models/cnn_xray_multiclass_final.h5')
+            img = image.load_img(image_path, target_size=(128, 128))
+            x = image.img_to_array(img)
+            print(x.shape)
+            x = np.true_divide(x, 255)
+            x = np.expand_dims(np.dot(x[...,:3],[0.2989, 0.5870, 0.1140]),axis = 2)
+            x = np.expand_dims(x, axis = 0)
+            print(x.shape)
+                # Be careful how your trained model deals with the input (None, 128, 128, 1)
+                # otherwise, it won't make correct prediction!
+            #x = preprocess_input(x, mode='caffe')
+
+            results = new_model.predict(x)
+            print(results)
+            
+            max = 0
+            for(i in range(15)):
+                if(results[i]>max):
+                    max = i
+            results = "Still under development"
                 #############################################################################
             ###
             
