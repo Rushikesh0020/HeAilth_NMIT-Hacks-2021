@@ -19,3 +19,15 @@ Multiclass classification of 14 different Thorax diseases as an aid for radiolog
 
 ## Loss per Epoch
 ![Screenshot (498)](https://user-images.githubusercontent.com/63740798/111865026-8385ac80-898a-11eb-97c1-70d5f1db0166.png)
+
+
+
+
+## Second Update: Added a MobileNet Layer
+
+## CNN Accuracy per approach
+![Screenshot (509)](https://user-images.githubusercontent.com/63740798/111867602-29d9ae00-899b-11eb-88c5-82548d880735.png)
+
+## Loss per Epoch
+![Screenshot (510)](https://user-images.githubusercontent.com/63740798/111867605-2b0adb00-899b-11eb-948b-30718b039eb7.png)
+
