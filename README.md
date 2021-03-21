@@ -18,17 +18,33 @@ be detected and even spatially-located via a supervised multi-class image classi
        1. Web-App or Mobile App Integration of working module. 
        2. Refer other works done by the people and collect information accordingly and present them at Round 2 of Judging. 
 **Working on both suggestions.....🌟(09:00 PM)** (Edit: completed with the work)
-
-
-## Changes Suggested By Judges (For Round 3)
-       1. Make necessary changes to achieve more accuracy and precision-recoil score and to get better results.  
- **Working on suggestion.....🌟(01:40 AM)**
-    
 <br />
 
 ## Status: Done with the required changes**
        1. Created a web app using Flask and Jinja2 Template Library. 
        2. Referred to some of the related projects. 
+<br />
+
+## Score Screenshot (Round 2)
+
+![march 20 values](https://user-images.githubusercontent.com/63740798/111893577-b468ee80-8a29-11eb-80cd-1dd58bf57fc8.PNG)
+<br />
+<br />
+## Changes Suggested By Judges (For Round 3)
+       1. Make necessary changes to achieve more accuracy and precision-recoil score and to get better results.  
+ **Working on suggestion.....🌟(01:40 AM)**(Edit: completed with the work (09:30 PM))
+
+ 
+ ## Status: Done with the required changes**
+       1. Increased the accuracy of the model by doing some changes. 
+       2. Got significant better precision-recoil score
+
+## Scores Screenshot ( Round 3) (Final Output)
+![final values](https://user-images.githubusercontent.com/63740798/111893580-b632b200-8a29-11eb-84ba-912225991c5d.PNG)
+
+<br />
+
+
 <br />
 <br />
 
