@@ -38,6 +38,8 @@ be detected and even spatially-located via a supervised multi-class image classi
  ## Status: Done with the required changes**
        1. Increased the accuracy of the model by doing some changes. 
        2. Got significant better precision-recoil score
+       **Additional Changes for User Experience**
+       3. Introduced a Chatbot using DialogFlow
 
 ## Scores Screenshot ( Round 3) (Final Output)
 ![final values](https://user-images.githubusercontent.com/63740798/111893580-b632b200-8a29-11eb-84ba-912225991c5d.PNG)
@@ -46,6 +48,7 @@ be detected and even spatially-located via a supervised multi-class image classi
 
 
 <br />
+-----------------------------------------------------------------------------------------------------------------------------------
 <br />
 
 ## First Update: Added a simple Deep Convolutional Neural Network Model to predict Thorax Diseases
